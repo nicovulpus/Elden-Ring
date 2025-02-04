@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: auto;
+  min-height: 100svh;
+}
+body {
+  background-color: rgb(21, 21, 21);
+  height: 100%;
+  font-family: "Josefin Sans", serif;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(21, 21, 21);
+  top: 0;
+  height: 10vh;
+}
+.left {
+  margin-right: 800px;
+}
+div {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+#body-text-1 {
+  padding: 20px;
+  color: white;
+  width: 50vw;
+  margin: auto;
+  line-height: 2;
+  letter-spacing: 0.5px;
+}
+#body-text-2 {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 50vw;
+  margin: auto;
+  line-height: 2;
+  letter-spacing: 0.5px;
+}
+
+#imageEldenRing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  padding: 50px;
+}
+
+hr {
+  margin: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
