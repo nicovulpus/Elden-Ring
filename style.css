@@ -46,6 +46,7 @@ h1 {
   margin: auto;
   line-height: 2;
   letter-spacing: 0.5px;
+  scroll-margin-top: 100px;
 }
 #body-text-2 {
   padding: 20px;
