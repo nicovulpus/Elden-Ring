@@ -4,22 +4,22 @@
 }
 
 html {
-  overflow: auto;
   min-height: 100svh;
 }
 body {
-  background-color: rgb(25, 24, 24);
+  background-color: rgb(21, 21, 21);
   height: 100%;
   font-family: "Josefin Sans", serif;
 }
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-  position: fixed;
+  position: sticky;
   background-color: rgb(21, 21, 21);
   top: 0;
-  height: 10vh;
+  height: 80px;
+  padding-right: 20px;
 }
 .left {
   margin-right: 800px;
@@ -92,4 +92,30 @@ hr {
 img {
   display: block;
   max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(21, 21, 21);
+}
+
+li {
+  float: left;
+  right: 0;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(228, 213, 213);
+  color: black;
 }
