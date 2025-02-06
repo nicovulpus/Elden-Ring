@@ -67,5 +67,3 @@ function increment() {
   count += 1;
   document.getElementById("death-count").innerText = count;
 }
-
-function save() {}
