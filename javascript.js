@@ -60,3 +60,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+count = 1000;
+
+function increment() {
+  count += 1;
+  document.getElementById("death-count").innerText = count;
+}
+
+function save() {}

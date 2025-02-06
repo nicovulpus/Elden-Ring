@@ -8,8 +8,9 @@ html {
 }
 body {
   background-color: rgb(21, 21, 21);
-  height: 100%;
+  min-height: 100svh;
   font-family: "Josefin Sans", serif;
+  line-height: 1.5;
 }
 nav {
   display: flex;
@@ -38,7 +39,20 @@ h1 {
   color: white;
   margin-top: 20px;
   font-size: 2rem;
+  font-size: 45px;
 }
+
+h2 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+h3 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
 #body-text-1 {
   padding: 20px;
   color: white;
@@ -118,4 +132,23 @@ li a {
 li a:hover {
   background-color: rgb(228, 213, 213);
   color: black;
+}
+
+#death-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  max-width: 100px;
+  border-radius: 10%;
+  background-color: rgb(112, 16, 16);
+  color: rgb(236, 226, 226);
+  margin: 20px;
+}
+
+p {
+  color: rgb(237, 228, 228);
 }
